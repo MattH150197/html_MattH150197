@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+.heading1{
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.container .box{
+    position: relative;
+    width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 25px;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.heading2{
+    color:gold;
+    text-align: center;
+    font-size: larger;
+}
+.intro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
