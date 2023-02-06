@@ -1,21 +1,60 @@
-// const numbers = [1,2,3,4,5,6,7,8,9]
+function toggle1() {
+    var x = document.getElementById("box1");
 
-// const squares = numbers.map((number,index)=>{
-//     return number * number
-// })
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}    
+function toggle2() {
+    var x = document.getElementById("box2");
 
-// console.log("numbers", numbers)
-// console.log("squares", squares)
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}   
+function toggle3() {
+    var x = document.getElementById("box3");
 
-// const evenNumbers = numbers.filter((number, index)=>{
-//     return % 2 == 0;
-// })
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}  
+function toggle4() {
+    var x = document.getElementById("box4");
 
-// console.log("evenNumbers", evenNumbers)
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}     
+function toggle5() {
+    var x = document.getElementById("box5");
 
-// const sum = numbers.reduce((previousValue,currentValue)=>{
-//     previousValue = previousValue + currentValue
-//     return previousValue
-// }, 0)
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+} 
+function toggle6() {
+    var x = document.getElementById("box6");
 
-// console.log("sum", sum)
+    if(x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}   
